@@ -195,3 +195,31 @@ footer p {
   margin: 0;
   font-size: 0.9rem;
 }
+
+/* Gallery styles */
+.gallery {
+  padding: 4rem 0;
+  background: #ffffff;
+  margin-top: 1rem;
+}
+
+.gallery h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #a67c52;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
